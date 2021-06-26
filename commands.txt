@@ -1,0 +1,13 @@
+git init
+
+git add <filename>
+
+git status 
+
+//first method commits all files
+git commit . -m "<message>" OR git commit <filename> <filename>
+
+git log 
+
+git checkout <commit code>
+
