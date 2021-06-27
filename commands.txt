@@ -5,9 +5,22 @@ git add <filename>
 git status 
 
 //first method commits all files
-git commit . -m "<message>" OR git commit <filename> <filename>
+git commit . -m "<message>" OR (git commit <filename> <filename>)
+/
+/ use :q! to exit 
 
 git log 
 
 git checkout <commit code>
 
+
+//ignore files
+
+touch .gitignore
+
+// new file will be created, put names of file you want to ignore in it
+
+// add to online repo
+git remote add origin https://github.com/Prachipatel123/Book.git
+
+git push -u origin master
